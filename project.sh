@@ -5,12 +5,6 @@
 # CYBERSECURITY BASH PROJECT
 # ==========================================
 
-# Check whether OpenSSL is installed
-if ! command -v openssl >/dev/null 2>&1; then
-    echo "Error: OpenSSL is not installed."
-    exit 1
-fi
-
 # Create a directory for project files
 mkdir -p project_files
 
